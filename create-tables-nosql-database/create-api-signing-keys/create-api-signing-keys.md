@@ -35,11 +35,11 @@ Any software client you use to connect to Oracle Cloud Infrastructure must be co
 
 3. The Tenancy Details page shows information about your cloud account. Copy the Tenancy OCID by clicking on the **Copy** link next to it. Save the value in your note file.
 
-  ![Copy Tenancy OCID](images/copy-tenancy-ocid.png)
+  ![Copy Tenancy OCID](images/copy-tenancy-ocid.png " ")
 
 4. In the top-right corner of the Console, open the Profile menu (User menu icon) and then click **User Settings** to view the details.
 
-  ![User Settings](images/user-settings.png)
+  ![User Settings](images/user-settings.png " ")
 
 5. Click Copy beside the (User) OCID save it to your note file.
 
@@ -103,11 +103,11 @@ To create a user API key, you will use `openssl` on your local system. If you ar
 
   ![View User Settings](images/user-settings.png)
 
-8. On the API Keys page, click **Add Public Key**.
+8. On the **Tokens and keys** menu, click **Add API key**.
 
   ![Add Public Key](images/add-public-key.png)
 
-9. Click **select one** and navigate to your `~/.oci` directory, and select the `oci_api_key_public.pem` file. Click **Add**.
+9. Select **Choose public key file** and click **Drop a file or select one**. Navigate to your `~/.oci` directory, and select the `oci_api_key_public.pem` file. Click **Add**.
 
   ![Add API Key](images/upload-public-key.png)
 
