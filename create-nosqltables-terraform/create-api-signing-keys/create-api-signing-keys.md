@@ -105,11 +105,11 @@ To create a user API key, you will use `openssl` on your local system. If you ar
 
   ![View User Settings](images/user-settings.png)
 
-8. On the API Keys page, click **Add Public Key**.
+8. On the **Tokens and keys** menu, click **Add Public Key**.
 
   ![Add Public key](images/add-public-key.png)
 
-9. Click **select one** and navigate to your `~/.oci` directory, and select the `oci_api_key_public.pem` file. Click **Add**.
+9. Select **Choose public key file** and click **Drop a file or select one**. Navigate to your `~/.oci` directory and select the `oci_api_key_public.pem` file. Click **Add**.
 
   ![Add API Key](images/upload-public-key.png)
 
